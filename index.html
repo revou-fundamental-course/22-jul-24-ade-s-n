@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ideal Getaway</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css\style.css">
+
 </head>
 
 <body>
-    
-</body>
+    <!-- Header -->
     <nav>
         <header>
             <div class="logo-icon"></div>
@@ -22,17 +24,23 @@
         </section>
     </nav>
 
+            <br>
+
+            <!-- Main Content -->
     <main>
         <article class="main-title">
             <header>
                 <h1>Your Trusted Travel Agent</h1>
             </header>
-
             <p>Your happiness is our happiness</p>
         </article>
 
+            <br>
+            <br>
+
         <section class="main-content">
             <article class="main-content-item">
+
                     <div class="main-banner-container">
                         <div class="main-content-banner banner-1">
                         </div>
@@ -40,20 +48,82 @@
                         </div>
                         <div class="main-content-banner banner-3">
                         </div>
+                        <div class="main-content-banner banner-4">
+                        </div>
+                        <div class="main-content-banner banner-5">
+                        </div>
                     </div>
 
                 <div class="main-item">
                     <div class="item-icon"> </div>
 
                 <div>
-                    <h3>lorem ipsum</h3>
-                    <p>Lorem Ipsum</p>
+                    <h3>Ade Septian Nugraha</h3>
+                    <p>Travel Agent</p>
                 </div>
             </div>
+
+            <div class="caption">
+                <p>
+                  Ideal Getaway "Is a travel service provider that offers many travel packages to 
+                  various countries to facilitate your trips, whether for business or just for vacation."
+                </p>
+              </div>
+
+              <hr class="divider" />
+
+              <div class="reason">
+                <p>Advantages of  Ideal Getaway:</p>
+              </div>
+    
+              <div class="main-item">
+                <div class="item-icon1"></div>
+                <div>
+                  <p>
+                    Fast and reliable service
+                  </p>
+                </div>
+              </div>
+    
+              <!--Alasan kedua-->
+              <div class="main-item">
+                <div class="item-icon2"></div>
+                <div>
+                  <p>
+                    Provides recommendations for places, food, and tourist destinations
+                  </p>
+                </div>
+              </div>
+    
+              <!--Alasan ketiga-->
+              <div class="main-item">
+                <div class="item-icon3"></div>
+                <div>
+                  <p>
+                    Offers language translation services
+                  </p>
+                </div>
+              </div>
             </article>
 
             <form class="main-content-item">
-                <input type="text" id="input-name" placeholder="Nama" />
+                <div class="contact">
+                    <h3>Contact Us</h3>
+                    <p>Sales will contact you within 24 hours after we receive your data </p>
+                </div>
+                <input type="text" id="input-name" placeholder="Name" />
+               
+                <input type="text" id="input-email" placeholder="Youremail@gmail.com" />
+              
+                <label for="option">Choose Your Package? </label>
+                <select  name="option" id="input-option">
+                  <option value="" disabled selected hidden>Select option</option>
+                  <option value="1">Solo Trip</option>
+                  <option value="2">Long Trip</option>
+                  <option value="3">Paket Tempat Wisata</option>
+                  <option value="4">Paket Akhir Tahun</option>
+                  <option value="5">Trip Singkat</option>
+                </select>
                 <button type="submit" onclick="formValidation()";>Submit</button>
             </form>
         </section>
@@ -62,4 +132,6 @@
 
     </main>
      <script src="js\script.js"></script>
+
+    </body>
 </html>

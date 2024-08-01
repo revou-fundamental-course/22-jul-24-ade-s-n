@@ -3,14 +3,22 @@
 
 function formValidation() {
     let name= document.getElementById('input-name').value;
-    console.log(name);
-
+    let email= document.getElementById('input-email').value;
+    let option= document.getElementById('input-option').value;
+    
     //pengecekan nama
     if (name == '') {
-        alert('Maaf anda belum mengisi nama');
-    }   else {
-        alert('Sukses mengisi nama');
-    }
+        alert('Nama masih Kosong');
+        
+    }   
+    if (email == '') {
+        alert('email masih Kosong');
+    }  
+    if (option == '') {
+        alert('Pilihan masih Kosong');
+    }    else {
+        alert('Sukses mengisi form');
+        }
 }
 
 
